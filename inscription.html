@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<title>CY Rowing Club</title>
+	<meta name="Description" content="Club d'aviron CY-Tech">
+
+	<!-- kumbh -->
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body  class="register-box">
+    
+	<!-- navigaion bar -->
+	<nav class="navbar">
+		<div class="inner-width">
+			<div class="logo-row">
+				<a href="index.html" title="Page d'accueil">
+					<img src="image/cyrow-logo.png" style="width: 80px;
+					height: 80px;">
+				</a>
+				<i class="fas fa-times"></i>
+				<a href="https://emea.mizuno.com/" title="Mizuno" target="_blank">
+					<img src="image/mizuno-logo-1.png" style="width: 90px;
+					height: 50px;">
+				</a>
+			</div>
+			<button class="menu-toggler">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div class="navbar-menu">
+				<a href="index.html">Accueil</a>
+				<a href="Actu.html">Actu</a>
+				<a href="#">Shop</a>
+				<a href="contact.html">Contact</a>
+				<a href="connexion.html">Connexion / Inscription</a>
+			</div>
+		</div>
+	</nav>
+    
+    <form class="boite-login">
+        <h1>Inscription</h1>
+        <div class="textbox" id="email"> 
+            <i class="far fa-envelope"></i>
+            <input type="text" placeholder="E-mail" required autofocus>
+        </div>
+
+        <div class="textbox" id="pseudo">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="Pseudo" required>
+        </div>
+
+        <div class="textbox" id="mdp">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Mot de Passe" required>
+        </div>
+
+        <div class="textbox" id="mdp2">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirmer le Mot de Passe" required>
+        </div>
+		
+        <input type="button" class="btn-connexion" value="S'inscrire">
+        <input type="button" onclick="window.location.href = 'connexion.html';"class="btn-connexion" value="Retour Connexion">
+
+    </form>
+    
+</body>
+</html>
