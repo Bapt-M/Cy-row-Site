@@ -19,13 +19,19 @@ window.addEventListener("DOMContentLoaded", function () {
   // var button = document.getElementById("my-form-button");
   var status = document.getElementById("status");
 
-  // Ajoute class "success" en cas de succes
+  // Ajoute class "success" ou "error"
 
   function success() {
     form.reset();
     status.classList.add("success");
     status.innerHTML = "Merci! :)";
   }
+
+  function error() {
+    status.classList.add("error");
+    status.innerHTML = "Il y a eu une erreur!";
+  }
+
 
 
 
