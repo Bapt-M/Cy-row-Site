@@ -446,9 +446,12 @@
 		height: auto;
 		flex-direction: column;
 		
+	}	
+}
+@media screen and (max-height: 800px){
+	.contact-cards{
+		height: auto;
 	}
-
-	
 }
 
 .profile-card{
