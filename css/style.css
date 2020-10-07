@@ -422,11 +422,10 @@
 /*Contact*/
 
 .contact-cards{
-	height: auto;
+	height: 100vh;
 	background: url(../image/FondAviron5.jpg) center;
 	background-size: cover;
 	display: flex;
-	place-items: center;
 	align-items: center;
 	justify-content: space-around;
 	transition: .2s linear;
