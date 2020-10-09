@@ -366,6 +366,18 @@ footer li{
 }
 
 
+.init-day{
+	flex-direction: column;
+}
+
+.init-day-pic{
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
 
 /*Contact*/
 
