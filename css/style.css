@@ -409,10 +409,10 @@ footer li{
 }
 
 .profile-card:nth-child(1){order: 3;} /*Camille*/
-.profile-card:nth-child(2){order: 4;} /*Antoine*/
-.profile-card:nth-child(3){order: 5;} /*Thomas V*/
-.profile-card:nth-child(4){order: 1; background-color: rgba(0, 0, 0, 0.7);} /*Thomas C*/
-.profile-card:nth-child(5){order: 2;} /*Cyprien*/
+.profile-card:nth-child(3){order: 4;} /*Antoine*/
+.profile-card:nth-child(4){order: 5;} /*Thomas V*/
+.profile-card:nth-child(5){order: 1; background-color: rgba(0, 0, 0, 0.7);} /*Thomas C*/
+.profile-card:nth-child(6){order: 2;} /*Cyprien*/
 
 
 @media screen and (max-width: 900px){
