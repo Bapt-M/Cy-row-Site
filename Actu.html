@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" id="actu">
+<html id="actu">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, inital-scale=1.0">
@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/entrainement-w3.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/script.js"></script>
 
@@ -44,35 +45,102 @@
 	<section class="container">
 
 		<div class="box-actu"> <!--dernier entrainement d'essai-->
-			<div class="cadre-image"><img src="image/entrainement.jpg" class="image"></div>
+			<div class="cadre-image-train">
+				<div class="w3-content w3-display-container">
+					<img class="mySlides train-image" src="image/entrainement/4-couple2.jpeg" style="width:100%">
+					<img class="mySlides train-image" src="image/entrainement/4-couple1.jpeg" style="width:100%">
+					<img class="mySlides train-image" src="image/entrainement/4-couple3.jpeg" style="width:100%">
+					<img class="mySlides train-image" src="image/entrainement/y+t.jpeg" style="width:100%">
+					<img class="mySlides train-image" src="image/entrainement/ergo.jpeg" style="width:100%">
+					<img class="mySlides train-image" src="image/entrainement/bateau-laisse.jpeg" style="width:100%">
+					<img class="mySlides train-image" src="image/entrainement/prez-nettoie.jpeg" style="width:100%">
+					
+					
+					
+				
+					<button class="w3-button w3-black w3-display-left pad-rectif" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-black w3-display-right pad-rectif" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+			</div>
+										<script>
+											var slideIndex = 1;
+											showDivs(slideIndex);
+
+											function plusDivs(n) {
+											  showDivs(slideIndex += n);
+											}
+
+											function showDivs(n) {
+											  var i;
+											  var x = document.getElementsByClassName("mySlides");
+											  if (n > x.length) {slideIndex = 1}
+											  if (n < 1) {slideIndex = x.length}
+											  for (i = 0; i < x.length; i++) {
+												x[i].style.display = "none";  
+											  }
+											  x[slideIndex-1].style.display = "block";  
+											}
+										</script>
+
+
+
 			<div>
-				<h2>Entrainement d'essai Jeudi!</h2>
-				<p>On espère que cette première du club d'aviron vous a plu!
-					<br>Nous remettons cela le jeudi 15 octobre à 14h à la Société Nautique de l'Oise
-					<br>pour les absents de la première et pour ceux qui veulent retenter l'experience.
-					<br>Ce sera la dernière avant les premiers entrainements de la saison.
-					<br>On espère vous voir nombreux!</p>
-				<p class="actu-footer">11 octobre 2020</p>
+				<h2>Entrainements</h2>
+				<p>La saison démarre pour CY Rowing Club.
+					<br>Avec des entrainements tous <b>jeudis et samedis à 14 h</b> à la <b>Société Nautique de l’Oise</b>.
+					<br>Les rameurs les plus aguerrisse préparent aux différentes compétitions universitaires 
+					<br>tandis que d'autres découvrent l'aviron dans un bel esprit de cohésion et d'équipe.
+					<br>Rejoignez-nous pour défendre les couleurs de CY Tech ou bien pour pratiquer ce sport en loisir
+				</p>
+				<p class="actu-footer">16 octobre 2020</p>
 			</div>
 		</div>
-		<div class="box-actu"></div> <!--Blank-->
+
 		
-		<div class="box-actu init-day"> <!--Shop-->
-			<div class="init-day-pic">
-			<div class="cadre-image"><img src="image/init/boat-1.JPG" class="image"></div>
-			<div class="cadre-image"><img src="image/init/boat-2b.JPG" class="image"></div>
-			<div class="cadre-image"><img src="image/init/boat-3b.JPG" class="image"></div>
+		<div class="box-actu"> <!--journée d'init-->
+			<div class="cadre-image-train">
+				<div class="w3-content w3-display-container">
+					<img src="image/init/boat-1.JPG" class="mySlides2 train-image">
+					<img src="image/init/boat-2b.JPG" class="mySlides2 train-image">
+					<img src="image/init/boat-3b.JPG" class="mySlides2 train-image">
+					<img src="image/init/mont-a-bord.JPG" class="mySlides2 train-image">
+					<img src="image/init/prez.JPG" class="mySlides2 train-image" style="max-height: 485px;">
+					
+				
+					<button class="w3-button w3-black w3-display-left pad-rectif" onclick="plusDivs2(-1)">&#10094;</button>
+					<button class="w3-button w3-black w3-display-right " onclick="plusDivs2(1)">&#10095;</button>
+				</div>
 			</div>
+			
+
+										<script>
+											var slideIndex2 = 1;
+											showDivs2(slideIndex2);
+
+											function plusDivs2(m) {
+											  showDivs2(slideIndex2 += m);
+											}
+
+											function showDivs2(m) {
+											  var j;
+											  var y = document.getElementsByClassName("mySlides2");
+											  if (m > y.length) {slideIndex2 = 1}
+											  if (m < 1) {slideIndex2 = y.length}
+											  for (j = 0; j < y.length; j++) {
+												y[j].style.display = "none";  
+											  }
+											  y[slideIndex2-1].style.display = "block";  
+											}
+										</script>
 
 			<div>
 				<h2>Journée d'initiation à l'aviron...</h2>
 				<p>Un grand merci à tous les participants! On espère que cela vous a plu et qu'on se reverra bientôt sur l'eau!<br>Merci particulièrement aux coach et au président pour cette belle après-midi!</p>
 				<p class="actu-footer">10 octobre 2020</p>
 			</div>
-			<div class="init-day-pic">
-				<div class="cadre-image"><img src="image/init/mont-a-bord.JPG" class="image"></div>
-				<div class="cadre-image"><img src="image/init/prez.JPG" class="image" style="height: 300px;"></div>
-				</div>
+			
+				
+				
 		</div>
 
 		<div class="box-actu"> <!--Shop-->
