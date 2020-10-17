@@ -304,6 +304,17 @@ footer li{
 	background: url(../image/FondAviron5.jpg) center;
 	background-size: cover;
 }
+.CMut{
+	height: 100px; 
+	margin: 5px;
+}
+
+@media screen and (max-width: 550px){
+	.CMut{
+		height: 40px; 
+		margin: 5px;
+	}
+}
 
 /*Actu*/
 
