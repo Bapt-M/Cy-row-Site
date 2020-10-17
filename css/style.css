@@ -275,12 +275,12 @@
 }
 
 footer{
-	margin: 5px;
+	border-top: 5px solid #07343b;
 	text-align: center;
 }
 
 footer h2{
-	margin: 10px 0;
+	margin: 18px 0;
 	font-size: 30px;
 	font-weight: 500;
 }
@@ -295,6 +295,14 @@ footer ul{
 
 footer li{
 	margin: 0 15px;
+}
+#contact footer{
+	border-top: 5px solid rgba(71, 71, 71, 0.76);
+	background-color: rgba(255, 255, 255, 0.719);
+}
+#contact{
+	background: url(../image/FondAviron5.jpg) center;
+	background-size: cover;
 }
 
 /*Actu*/
@@ -400,9 +408,7 @@ footer li{
 /*Contact*/
 
 .contact-cards{
-	height: 100vh;
-	background: url(../image/FondAviron5.jpg) center;
-	background-size: cover;
+	height: 80vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -424,11 +430,7 @@ footer li{
 		flex-direction: column;
 	}
 }
-@media screen and (max-height: 800px){
-	.contact-cards{
-		height: auto;
-	}
-}
+
 
 .profile-card{
 	display: inline-block;
