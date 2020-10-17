@@ -275,15 +275,11 @@
 }
 
 footer{
+	height: 20vh;
 	border-top: 5px solid #07343b;
-	text-align: center;
+	z-index: 100000;
 }
 
-footer h2{
-	margin: 18px 0;
-	font-size: 30px;
-	font-weight: 500;
-}
 
 footer ul{
 	display: flex;
@@ -294,11 +290,11 @@ footer ul{
 }
 
 footer li{
-	margin: 0 15px;
+	margin: 4vh 15px;
 }
 #contact footer{
 	border-top: 5px solid rgba(71, 71, 71, 0.76);
-	background-color: rgba(255, 255, 255, 0.719);
+	background-color: rgb(255, 255, 255);
 }
 #contact{
 	background: url(../image/FondAviron5.jpg) center;
@@ -419,7 +415,7 @@ footer li{
 /*Contact*/
 
 .contact-cards{
-	height: 80vh;
+	height: 79vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -437,8 +433,12 @@ footer li{
 
 @media screen and (max-width: 900px){
 	.contact-cards{
-		height: auto;
 		flex-direction: column;
+	}
+}
+@media screen and (max-width: 1360px){
+	.contact-cards{
+		height: auto;
 	}
 }
 
