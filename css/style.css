@@ -275,11 +275,9 @@
 }
 
 footer{
-	height: 20vh;
 	border-top: 5px solid #07343b;
 	z-index: 100000;
 }
-
 
 footer ul{
 	display: flex;
@@ -294,19 +292,19 @@ footer li{
 }
 #contact footer{
 	border-top: 5px solid rgba(71, 71, 71, 0.76);
-	background-color: rgba(255, 255, 255, 0.70);
+	background-color: rgb(255, 255, 255, 0.6);
 }
 #contact{
 	background: url(../image/FondAviron5.jpg) center;
 	background-size: cover;
 }
-.CMut{
+.logo-partenaire{
 	height: 100px; 
 	margin: 5px;
 }
 
 @media screen and (max-width: 550px){
-	.CMut{
+	.logo-partenaire{
 		height: 40px; 
 		margin: 5px;
 	}
@@ -433,7 +431,6 @@ footer li{
 
 @media screen and (max-width: 900px){
 	.contact-cards{
-		height: auto;
 		flex-direction: column;
 	}
 }
