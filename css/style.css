@@ -435,7 +435,7 @@ footer li{
 		flex-direction: column;
 	}
 }
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1347px){
 	.contact-cards{
 		height: auto;
 	}
